@@ -2,8 +2,9 @@
 @name           Темна тема myshows.me
 @namespace      userstyles
 @author         micecorn/ClassicUA
+@homepageURL    https://github.com/ClassicUA/myshows.me
 @description    Темна тема для сайту myshows.me 
-@version        2023.11.19.1
+@version        2023.11.19-3
 ==/UserStyle== */
 
 @-moz-document domain("myshows.me") {
