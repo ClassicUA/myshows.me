@@ -4,7 +4,7 @@
 @author         micecorn/ClassicUA
 @homepageURL    https://github.com/ClassicUA/myshows.me
 @description    Темна тема для сайту myshows.me 
-@version        2023.11.19-3
+@version        2023.11.19-4
 ==/UserStyle== */
 
 @-moz-document domain("myshows.me") {
@@ -121,6 +121,9 @@
 }
 .DailyDistribution-day {
     background: #606060;
+}
+.UserBlock__all-link {
+  color:#f48600;
 }
 /* Календар */
 .calendar-date-selector {
