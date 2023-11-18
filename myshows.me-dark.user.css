@@ -3,7 +3,7 @@
 @namespace      userstyles
 @author         micecorn/ClassicUA
 @description    Темна тема для сайту myshows.me 
-@version        2023.11.19-1
+@version        2023.11.19-2
 ==/UserStyle== */
 
 @-moz-document domain("myshows.me") {
@@ -16,7 +16,7 @@
     --myshows-color: #f94040
 }
 .AsideHeading-toggler {
-    border-bottom:1px dotted #f48600;
+    border-bottom: 1px dotted #f48600;
     cursor:pointer;
 }
 .UnwatchedEpisodeItem__index {
@@ -27,7 +27,7 @@
 }
 .show-informer__show-more {
     color: #f48600;
-    border-bottom:1px dashed #f48600
+    border-bottom: 1px dashed #f48600
 }
 .UnwatchedEpisodeItem {
     border-bottom: 1px solid #777;
