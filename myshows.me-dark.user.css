@@ -4,7 +4,7 @@
 @author         micecorn/ClassicUA
 @homepageURL    https://github.com/ClassicUA/myshows.me
 @description    Темна тема для сайту myshows.me 
-@version        2023.11.19-4
+@version        2023.11.19-5
 ==/UserStyle== */
 
 @-moz-document domain("myshows.me") {
@@ -59,21 +59,41 @@
 .Page-aside {
     border-left: 1px solid #404040;
 }
-.Sidebar-item {
+/*.Sidebar-item {
     border-bottom: 1px solid #404040;
+}*/
+.Sidebar__item {
+    align-items:center;
+    border-bottom:1px solid #5e5e5e;
+    color:var(--font-color);
+    display:flex;
+    flex-direction:column;
+    font-size:13px;
+    height:90px;
+    justify-content:flex-end;
+    padding:6px 4px;
+    text-align:center
 }
 .DefaultLayout:not(.guest) .DefaultLayout-main:after {
     border-right: 1px solid #404040;
 }
-.Sidebar-container {
-    border-right: 1px solid #404040;
+/*.Sidebar-container {
+    border-right: 1px solid #575757;
+}*/
+.Sidebar__container {
+    background:var(--sidebar-background);
+    border-right:1px solid #575757;
+    width:100%
 }
 .Sidebar-item.more,
 .Sidebar-item:not(.router-link-exact-active) {
     color: #f7f7f7;
 }
-.Sidebar-item.router-link-exact-active {
+/*.Sidebar-item.router-link-exact-active {
     background: #424242;
+}*/
+.Sidebar__item.router-link-exact-active {
+    background: #424242
 }
 .swipeout:nth-child(2n) {
     background: #282828;
