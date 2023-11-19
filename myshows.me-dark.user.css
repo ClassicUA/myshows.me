@@ -4,7 +4,7 @@
 @author         micecorn/ClassicUA
 @homepageURL    https://github.com/ClassicUA/myshows.me
 @description    Темна тема для сайту myshows.me 
-@version        2023.11.19-5
+@version        2023.11.19-6
 ==/UserStyle== */
 
 @-moz-document domain("myshows.me") {
@@ -93,7 +93,7 @@
     background: #424242;
 }*/
 .Sidebar__item.router-link-exact-active {
-    background: #424242
+    background: #383838
 }
 .swipeout:nth-child(2n) {
     background: #282828;
