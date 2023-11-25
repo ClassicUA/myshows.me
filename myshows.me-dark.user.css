@@ -101,7 +101,7 @@
 .sliding-tabs__container .title.active {
     color: #fcfcfc;
 }
-.unwatched-movies__item:nth-child(2n) {
+.UnwatchedEpisodeItem:nth-child(2n) {
     background: #282828;
 }
 .unwatched-movies__item {
