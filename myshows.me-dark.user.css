@@ -245,6 +245,12 @@
 .ShowStatusBar-option {
     color: #fff;
 }
+.ShowInformer__show-more {
+    border-bottom:1px dashed #f48600;
+    color:#f48600;
+    cursor:pointer;
+    display:inline-block
+}
 /* Сторінка фільму */
 .ShowRating._movie .ShowRating-value div {
     color: #cbcbcb;
