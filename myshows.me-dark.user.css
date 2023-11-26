@@ -4,7 +4,7 @@
 @author         micecorn/ClassicUA
 @homepageURL    https://github.com/ClassicUA/myshows.me
 @description    Темна тема для сайту myshows.me 
-@version        2023.11.26-4
+@version        2023.11.26-5
 ==/UserStyle== */
 
 @-moz-document domain("myshows.me") {
@@ -15,9 +15,6 @@
     --bg-gray-color: #5e5e5e;
     --font-color: #f48600;
     --myshows-color: #f94040
-}
-.DefaultLayout:not(.guest) .DefaultLayout-main:after {
-    border-right: 1px solid #404040;
 }
 .AsideHeading-toggler {
     border-bottom: 1px dotted #f48600;
