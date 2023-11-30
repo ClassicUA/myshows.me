@@ -4,7 +4,7 @@
 @author         micecorn/ClassicUA
 @homepageURL    https://github.com/ClassicUA/myshows.me
 @description    Темна тема для сайту myshows.me 
-@version        2023.11.27
+@version        2023.11.30
 ==/UserStyle== */
 
 @-moz-document domain("myshows.me") {
@@ -202,6 +202,9 @@
 .news-details a.news-details__metaItem {
     color:var(--link-color);
 }
+.NewsDetails__meta a {
+    color:var(--link-color);
+    }
 /* Спільнота */
 .EpisodeItem-title {
     color: #f1f1f1;
