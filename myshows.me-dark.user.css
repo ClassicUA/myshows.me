@@ -4,7 +4,7 @@
 @author         micecorn/ClassicUA
 @homepageURL    https://github.com/ClassicUA/myshows.me
 @description    Темна тема для сайту myshows.me 
-@version        2023.11.30
+@version        2023.11.30-1
 ==/UserStyle== */
 
 @-moz-document domain("myshows.me") {
@@ -204,7 +204,11 @@
 }
 .NewsDetails__meta a {
     color:var(--link-color);
-    }
+}
+.ReadAlsoMain__item {
+    color:var(--link-color);
+    display:flex
+}        
 /* Спільнота */
 .EpisodeItem-title {
     color: #f1f1f1;
@@ -330,6 +334,12 @@ textarea {
 /* Нові коментарі */
 .comment--new {
     background: #f9ff9f0f;
+}
+.Comments-not-yet {
+    font-size:var(--main-font-size);
+    margin-bottom:15px;
+    padding:0 var(--container-padding);
+    color: #c1c1c1;
 }
 .Textarea__field {
     background:#5e5e5e;
