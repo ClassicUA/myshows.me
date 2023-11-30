@@ -4,7 +4,7 @@
 @author         micecorn/ClassicUA
 @homepageURL    https://github.com/ClassicUA/myshows.me
 @description    Темна тема для сайту myshows.me 
-@version        2023.11.30-2
+@version        2023.11.30-3
 ==/UserStyle== */
 
 @-moz-document domain("myshows.me") {
@@ -336,7 +336,7 @@ textarea {
 }
 /* Нові коментарі */
 .comment--new {
-    background: #f9ff9f0f;
+    background: #5e5e5e;
 }
 .Comments-not-yet {
     font-size:var(--main-font-size);
