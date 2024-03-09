@@ -4,7 +4,7 @@
 @author         micecorn/ClassicUA
 @homepageURL    https://github.com/ClassicUA/myshows.me
 @description    Темна тема для сайту myshows.me 
-@version        2023.11.30-3
+@version        2024.03.09
 ==/UserStyle== */
 
 @-moz-document domain("myshows.me") {
@@ -52,6 +52,10 @@
 }
 .MyHome-calendar {
     color: #a7a7a7;
+}
+.Home-section {
+    background: #383838;
+    padding-bottom: 20px;
 }
 .Container {
     color: #a7a7a7;
