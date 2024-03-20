@@ -4,7 +4,7 @@
 @author         micecorn/ClassicUA
 @homepageURL    https://github.com/ClassicUA/myshows.me
 @description    Темна тема для сайту myshows.me 
-@version        2024.03.09
+@version        2024.03.21
 ==/UserStyle== */
 
 @-moz-document domain("myshows.me") {
@@ -362,6 +362,10 @@ textarea {
     resize:vertical;
     transition:border-color .2s ease;
     width:100%
+}
+.tippy-box {
+    --tooltip-myshows-dropdown-bg-color:#5e5e5e;
+    --tippy-tooltip-width:238px
 }
 /* Реклама */
 .HtmlContent h2 {
