@@ -169,7 +169,7 @@
 .ShowStatusLabel.ShowStatusLabel--paused:before {
     background:#5e5e5e;
     border:.045rem solid #ccc;
-/*    color:#ccc;*/
+/*    color:#ccc; */
     content:"PAUSE"
     }
 .ShowStatusLabel.ShowStatusLabel--dead:before {
